@@ -2,7 +2,7 @@
   "name": "react-homework-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://M-Farmaha.github.io/zb-frontend/",
+  "homepage": "https://M-Farmaha.github.io/zb-frontend",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
     "file-loader": "^6.2.0",
