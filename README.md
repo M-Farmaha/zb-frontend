@@ -1,6 +1,15 @@
-# Zenbit FullStack Tech Task
+# Zenbit FullStack Tech Task Frontend
 
-Welcome to Zenbit FullStack Tech Task repository!
+## Link to backend repository
+https://github.com/M-Farmaha/zb-backend
+
+## Link to the deployed frontend with gh-pages
+https://m-farmaha.github.io/zb-frontend/
+
+## Link to the deployed backend with "render.com" service
+https://zb-backend-oquk.onrender.com/
+
+Welcome to Zenbit FullStack Tech Task Frontend repository!
 This is an educational repository that uses the following technologies:
 Frontend:
 -react
@@ -11,6 +20,7 @@ Frontend:
 Backend:
 -node.js
 -mongoBD/mongoose
+-deploy on render.com
 
 ## Pages
 - Start page
