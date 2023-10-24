@@ -104,4 +104,8 @@ export const NavButton = styled.button`
     color: var(--primary-white-color);
     cursor: default;
   }
+  &:disabled {
+    cursor: default;
+    opacity: 0.5;
+  }
 `;
