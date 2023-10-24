@@ -5,6 +5,7 @@
   "homepage": "https://M-Farmaha.github.io/zb-frontend",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
+    "axios": "^1.5.1",
     "file-loader": "^6.2.0",
     "modern-normalize": "^2.0.0",
     "normalize.css": "^8.0.1",

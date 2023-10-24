@@ -1,5 +1,5 @@
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
-import { tokenReducer } from "./slice";
+import { isLoadingReducer, tokenReducer } from "./slice";
 import { dealsApi } from "./dealsApi";
 import { authApi } from "./authApi";
 
@@ -18,6 +18,7 @@ import persistStore from "redux-persist/es/persistStore";
 
 const reducer = combineReducers({
   token: tokenReducer,
+  isLoading: isLoadingReducer,
   [dealsApi.reducerPath]: dealsApi.reducer,
   [authApi.reducerPath]: authApi.reducer,
 });
@@ -25,7 +26,7 @@ const reducer = combineReducers({
 const persistConfig = {
   key: "root",
   storage,
-  whitelist: ["token"],
+  whitelist: ["token", "isLoading"],
 };
 
 const persistedReducer = persistReducer(persistConfig, reducer);

@@ -1,4 +1,5 @@
 import { RotatingLines } from "react-loader-spinner";
+import { PageLoaderWrapper } from "./Loaders-styled";
 
 export const ButtonLoader = () => {
   return (
@@ -21,5 +22,19 @@ export const ImageLoader = () => {
       width="66"
       visible={true}
     />
+  );
+};
+
+export const PageLoader = () => {
+  return (
+    <PageLoaderWrapper>
+      <RotatingLines
+        strokeColor="var(--accent-color)"
+        strokeWidth="5"
+        animationDuration="0.75"
+        width="99"
+        visible={true}
+      />
+    </PageLoaderWrapper>
   );
 };

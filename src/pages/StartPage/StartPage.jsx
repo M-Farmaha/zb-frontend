@@ -7,7 +7,7 @@ import {
   Title,
 } from "./StartPage-styled";
 
-export const StartPage = () => {
+const StartPage = () => {
   const navigate = useNavigate();
   const handleButtonClick = () => {
     navigate("/login");
@@ -32,3 +32,5 @@ export const StartPage = () => {
     </>
   );
 };
+
+export default StartPage;

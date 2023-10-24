@@ -4,7 +4,7 @@ import { getToken } from "../../redux/selectors";
 import { useGetDealsQuery } from "../../redux/dealsApi";
 import { DealsItem } from "../../components/DealsItem/DealsItem";
 
-export const MainPage = () => {
+const MainPage = () => {
   const token = useSelector(getToken);
   const { data } = useGetDealsQuery(token);
 
@@ -22,3 +22,5 @@ export const MainPage = () => {
     </Section>
   );
 };
+
+export default MainPage;

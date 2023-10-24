@@ -10,7 +10,7 @@ import {
 } from "./AuthPage-styled";
 import { useLocation } from "react-router-dom";
 
-export const AuthPage = () => {
+const AuthPage = () => {
   const { pathname } = useLocation();
   const route = pathname === "/register" ? "Sign Up" : "Login";
 
@@ -32,3 +32,5 @@ export const AuthPage = () => {
     </Container>
   );
 };
+
+export default AuthPage;

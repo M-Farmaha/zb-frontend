@@ -1,12 +1,15 @@
 import { Route, Routes } from "react-router-dom";
+import { lazy } from "react";
 
 import { Layout } from "./Layout/Layout";
 import { ErrorPage } from "./pages/ErrorPage/ErrorPage";
-import { StartPage } from "./pages/StartPage/StartPage";
-import { AuthPage } from "./pages/AuthPage/AuthPage";
-import { MainPage } from "./pages/MainPage/MainPage";
+
 import PublicRoute from "./routes/PublicRoute";
 import PrivateRoute from "./routes/PrivateRoute";
+
+const StartPage = lazy(() => import("./pages/StartPage/StartPage.jsx"));
+const AuthPage = lazy(() => import("./pages/AuthPage/AuthPage.jsx"));
+const MainPage = lazy(() => import("./pages/MainPage/MainPage.jsx"));
 
 export const App = () => {
   return (
