@@ -15,7 +15,7 @@ root.render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <BrowserRouter basename="/react-node-training">
+        <BrowserRouter basename="/zb-frontend">
           <App />
         </BrowserRouter>
       </PersistGate>

@@ -2,14 +2,15 @@
   "name": "react-homework-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://M-Farmaha.github.io/zb-fe/",
+  "homepage": "https://M-Farmaha.github.io/zb-frontend",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
-    "modern-normalize": "^2.0.0",
     "file-loader": "^6.2.0",
+    "modern-normalize": "^2.0.0",
     "normalize.css": "^8.0.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-icons": "^4.11.0",
     "react-loader-spinner": "^5.3.4",
     "react-redux": "^8.1.3",
     "react-router-dom": "^6.17.0",
@@ -42,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
