@@ -8,6 +8,10 @@ export const Form = styled.form`
   width: 350px;
 
   margin-bottom: 10px;
+
+  @media (max-width: 400px) {
+    width: calc(100vw - 50px)
+  }
 `;
 
 export const Label = styled.label`

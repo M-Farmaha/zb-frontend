@@ -6,6 +6,10 @@ export const Section = styled.section`
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
+
+  @media (max-width: 800px) {
+    padding: 50px 10vw
+  }
 `;
 
 export const Title = styled.h2`
@@ -17,6 +21,7 @@ export const Title = styled.h2`
   line-height: 1.21;
 
   margin-bottom: 20px;
+  
 `;
 
 export const DealsList = styled.ul`

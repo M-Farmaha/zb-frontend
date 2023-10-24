@@ -3,30 +3,23 @@ import { NavLink } from "react-router-dom";
 
 export const Header = styled.header`
   height: 80px;
-  min-width: 450px;
+  padding: 0px 80px;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 999;
+  z-index: 99999;
   background-color: var(--primary-color);
   box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.06),
     0px 2px 10px 0px rgba(0, 0, 0, 0.1);
 `;
 
 export const NavWrap = styled.nav`
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
-
-  padding: 0px 80px;
-  display: flex;
-  justify-content: end;
-
+  width: 100%;
   height: 100%;
   display: flex;
-  justify-content: end;
   align-items: center;
+  justify-content: flex-end;
 `;
 
 export const NavList = styled.ul`
@@ -43,7 +36,8 @@ export const NavLinkStyled = styled(NavLink)`
   justify-content: center;
   align-items: center;
   width: 160px;
-  padding: 11px;
+  min-width: 40px;
+  height: 45px;
 
   border-radius: 8px;
   border: 1px solid var(--accent-color);
@@ -70,6 +64,10 @@ export const NavLinkStyled = styled(NavLink)`
     cursor: default;
     opacity: 0.5;
   }
+
+  @media (max-width: 490px) {
+    width: calc((100vw - 170px) /2 )
+  }
 `;
 
 export const NavButton = styled.button`
@@ -78,6 +76,8 @@ export const NavButton = styled.button`
   justify-content: center;
   align-items: center;
   width: 160px;
+  min-width: 40px;
+  height: 45px;
   padding: 11px;
 
   border-radius: 8px;
@@ -107,5 +107,9 @@ export const NavButton = styled.button`
   &:disabled {
     cursor: default;
     opacity: 0.5;
+  }
+
+  @media (max-width: 320px) {
+    width: calc(100vw /2 )
   }
 `;

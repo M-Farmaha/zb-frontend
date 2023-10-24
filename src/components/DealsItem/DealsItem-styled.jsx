@@ -13,6 +13,10 @@ export const Image = styled.img`
   min-width: 450px;
   width: 630px;
   object-fit: cover;
+
+  @media (max-width: 490px) {
+    min-width: calc(100vw - 40px)
+  }
 `;
 
 export const ImageLoaderWrapper = styled.div`
@@ -20,7 +24,7 @@ export const ImageLoaderWrapper = styled.div`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 9999;
+  z-index: 999;
 `;
 
 export const DescriptionWrap = styled.div`

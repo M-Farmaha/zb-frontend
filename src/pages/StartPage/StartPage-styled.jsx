@@ -38,6 +38,10 @@ export const Title = styled.h1`
 
   margin-bottom: 10px;
   padding: 0px 40px;
+
+  @media (max-width: 490px) {
+    font-size: 13vw;
+  }
 `;
 
 export const SubTitle = styled.p`
@@ -53,6 +57,10 @@ export const SubTitle = styled.p`
 
   margin-bottom: 30px;
   padding: 0px 40px;
+
+  @media (max-width: 490px) {
+    font-size: 4.9vw;
+  }
 `;
 
 export const Button = styled.button`

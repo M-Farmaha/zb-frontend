@@ -14,18 +14,19 @@ export const Background = styled.div`
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
-  width: 100%;
+  width: calc(100% - 550px);
   height: calc(100vh - 80px);
 `;
 
 export const AuthContainer = styled.div`
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 
   height: calc(100vh - 80px);
-  min-width: 550px;
+
+  width: 550px;
 
   background-color: var(--secondary-white-color);
 `;
@@ -40,6 +41,11 @@ export const Title = styled.h2`
 
   width: 350px;
   margin-bottom: 20px;
+  text-align: left;
+
+  @media (max-width: 400px) {
+    width: calc(100vw - 50px)
+  }
 `;
 
 export const LinkStyled = styled(Link)`

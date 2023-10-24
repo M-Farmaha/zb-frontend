@@ -7,9 +7,14 @@ import { Link } from "react-router-dom";
 export const Form = styled.form`
   display: flex;
   flex-direction: column;
+
   width: 350px;
 
   margin-bottom: 10px;
+
+  @media (max-width: 400px) {
+    width: calc(100vw - 50px)
+  }
 `;
 
 export const Label = styled.label`
