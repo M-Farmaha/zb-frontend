@@ -4,7 +4,10 @@ import { Title } from "./PendingPage-styled";
 export const PendingPage = () => {
   return (
     <>
-      <Title>Please, wait for the server to warm up...</Title>
+      <Title>
+        The first load may take more time according to server's cold start.
+        Please wait a little...
+      </Title>
       <PageLoader />
     </>
   );
