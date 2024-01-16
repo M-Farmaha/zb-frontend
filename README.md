@@ -7,7 +7,7 @@ https://github.com/M-Farmaha/zb-backend
 https://m-farmaha.github.io/zb-frontend/
 
 
-Welcome to Zenbit Application Backend repository!
+Welcome to Zenbit Application Frontend repository!
 
 ## Pages
 - Start page
