@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/zb-frontend/static/css/main.c735ef84.css",
-    "main.js": "/zb-frontend/static/js/main.2db43ec5.js",
+    "main.js": "/zb-frontend/static/js/main.f6d5ae5c.js",
     "static/js/744.b10b786d.chunk.js": "/zb-frontend/static/js/744.b10b786d.chunk.js",
-    "static/js/626.e3e779eb.chunk.js": "/zb-frontend/static/js/626.e3e779eb.chunk.js",
+    "static/js/626.5b65cc6c.chunk.js": "/zb-frontend/static/js/626.5b65cc6c.chunk.js",
     "static/js/943.7c90b345.chunk.js": "/zb-frontend/static/js/943.7c90b345.chunk.js",
     "static/js/134.899a4cda.chunk.js": "/zb-frontend/static/js/134.899a4cda.chunk.js",
     "static/media/StartPageBackground.jpg": "/zb-frontend/static/media/StartPageBackground.220465c3d091a5611c66.jpg",
     "static/media/AuthPageBackground.jpg": "/zb-frontend/static/media/AuthPageBackground.1073974ee1637df0aaae.jpg",
     "index.html": "/zb-frontend/index.html",
     "main.c735ef84.css.map": "/zb-frontend/static/css/main.c735ef84.css.map",
-    "main.2db43ec5.js.map": "/zb-frontend/static/js/main.2db43ec5.js.map",
+    "main.f6d5ae5c.js.map": "/zb-frontend/static/js/main.f6d5ae5c.js.map",
     "744.b10b786d.chunk.js.map": "/zb-frontend/static/js/744.b10b786d.chunk.js.map",
-    "626.e3e779eb.chunk.js.map": "/zb-frontend/static/js/626.e3e779eb.chunk.js.map",
+    "626.5b65cc6c.chunk.js.map": "/zb-frontend/static/js/626.5b65cc6c.chunk.js.map",
     "943.7c90b345.chunk.js.map": "/zb-frontend/static/js/943.7c90b345.chunk.js.map",
     "134.899a4cda.chunk.js.map": "/zb-frontend/static/js/134.899a4cda.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c735ef84.css",
-    "static/js/main.2db43ec5.js"
+    "static/js/main.f6d5ae5c.js"
   ]
 }
