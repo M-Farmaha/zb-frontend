@@ -31,7 +31,7 @@ export const LoginForm = () => {
       const { token } = await loginUser({ email, password }).unwrap();
       dispatch(setToken(token));
     } catch (error) {
-      alert(error.data.message);
+      alert(error?.data?.message);
     }
     setisLoading(false);
   };

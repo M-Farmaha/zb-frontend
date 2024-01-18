@@ -31,7 +31,7 @@ export const RegisterForm = () => {
       const { token } = await createNewUser({ name, email, password }).unwrap();
       dispatch(setToken(token));
     } catch (error) {
-      alert(error.data.message);
+      alert(error?.data?.message);
     }
     setisLoading(false);
   };
